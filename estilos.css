@@ -31,7 +31,8 @@ body{
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .5);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    text-align: center;
 }
 
 figure{
@@ -48,15 +49,27 @@ figure{
 
 .title{
     font-weight: 700;
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .paragraph{
     font-weight: 400;
-    text-align: center;
     color: var(--slate500);
     padding: 0 10px;
+}
+
+.paragraph__footer{
+    color: var(--slate500);
+    font-size: .8rem;
+}
+
+.paragraph__footer a{
+    color: var(--slate900);
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }
 
 @media screen and (max-width: 378px){  
@@ -66,5 +79,9 @@ figure{
 
     .paragraph{
         padding: 0 5px;
+    }
+
+    a:active{
+        color: red;
     }
 }

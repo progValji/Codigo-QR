@@ -89,6 +89,6 @@ I would like also continue improving responsive design
 
 ## Author
 
-- Website - [Osvaldo Valdivia](#)
+- Website - [Web site](https://progvalji.github.io/Codigo-QR/)
 - Frontend Mentor - [Osvaldo Valdivia](https://www.frontendmentor.io?ref=challenge)
 
